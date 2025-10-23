@@ -1,0 +1,394 @@
+2025-10-23 15:06:59 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: Hello! 64070017: Checking Student ID commands...
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | Bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:06:59 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: Hello! 64070017: Checking Student ID commands...
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | Bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:06:59 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: Hello! 64070017: Checking Student ID commands...
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | Bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:07:01 +0700 | Room: IPA2025-Exam(Test) | Bot: /64070017 disable
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:07:01 +0700 | Room: IPA2025-Exam(Test) | Bot: /64070017 disable
+2025-10-23 15:07:00 +0700 | Room: IPA2025-Exam(Test) | ipa-bot@webex.bot: User: 64070017 checked in. Starting checking commands...
+2025-10-23 15:07:01 +0700 | Room: IPA2025-Exam(Test) | Bot: /64070017 disable
+2025-10-23 15:07:33 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /cancel
+2025-10-23 15:07:36 +0700 | Room: IPA2025-Exam(Test) | Bot: Command checking for user 64070017 cancelled.
+2025-10-23 15:07:33 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /cancel
+2025-10-23 15:07:36 +0700 | Room: IPA2025-Exam(Test) | Bot: Command checking for user 64070017 cancelled.
+2025-10-23 15:09:03 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /ask ADV
+2025-10-23 15:09:11 +0700 | Room: IPA2025-Exam(Test) | Bot: "ADV" is a common abbreviation that can stand for several things, depending on the context. Here are the most common meanings: Advertising: This is probably the most frequent use, especially in business, marketing, or online discussions. Example: "We need to increase our ADV budget." Advance: As in "advance payment," "advance notice," or to "advance" a cause or project. Example: "I need an ADV on my salary." Adverb: In grammar, "adv." is often used to denote an adverb. Example: "The word 'quickly' is an ADV." Adventure: Less common as a direct abbreviation, but sometimes used informally. To give you the most accurate answer, could you provide a bit more context?
+2025-10-23 15:09:03 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /ask ADV
+2025-10-23 15:09:11 +0700 | Room: IPA2025-Exam(Test) | Bot: "ADV" is a common abbreviation that can stand for several things, depending on the context. Here are the most common meanings: Advertising: This is probably the most frequent use, especially in business, marketing, or online discussions. Example: "We need to increase our ADV budget." Advance: As in "advance payment," "advance notice," or to "advance" a cause or project. Example: "I need an ADV on my salary." Adverb: In grammar, "adv." is often used to denote an adverb. Example: "The word 'quickly' is an ADV." Adventure: Less common as a direct abbreviation, but sometimes used informally. To give you the most accurate answer, could you provide a bit more context?
+2025-10-23 15:11:14 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /ask explain webhook
+2025-10-23 15:11:25 +0700 | Room: IPA2025-Exam(Test) | Bot: To explain, I need to know what you'd like me to explain! "Explain" is a command that asks for clarification, a description, or reasons for something. Please tell me: What concept, idea, term, or event do you want me to explain? What context is it in, if any? What level of detail are you looking for (simple overview, in-depth analysis, etc.)? For example, you could ask: "Explain quantum physics." "Explain why the sky is blue." "Explain what an API is." "Explain the plot of Hamlet." "Explain the difference between weather and climate." Once you give me a topic, I'll do my best to provide a clear and concise explanation!
+2025-10-23 15:13:16 +0700 | Room: IPA2025-Exam(Test) | 64070017@kmitl.ac.th: /ask explain webhook
+2025-10-23 15:13:39 +0700 | Room: IPA2025-Exam(Test) | Bot: Imagine you're waiting for an important letter. Traditional Method (Polling): You constantly walk to your mailbox, open it, check if the letter is there, close it, and go back inside. You repeat this every hour, even if there's nothing new. This is inefficient and wastes your time and energy. Webhook Method (Push Notification): You tell the post office, "When that specific letter arrives, please send me a text message immediately." Now, you don't have to keep checking. The post office pushes a notification to you only when the event (letter arrival) actually happens. What is a Webhook? A webhook is an automated way for one application to send real-time information to another application when a specific event happens. It's essentially a "user-defined HTTP callback." In simpler terms, it's a mechanism where a source application (the "sender") notifies a destination application (the "receiver") about an event by making an HTTP request (usually a POST request) to a specific URL provided by the receiver. Key Characteristics: Event-Driven: Webhooks are triggered by specific events (e.g., a new user signs up, a payment is processed, code is pushed to a repository). Real-time: Unlike polling (where you constantly ask "Is anything new?"), webhooks push data immediately when an event occurs. HTTP Callback: The "notification" is an HTTP request sent from the source application to a pre-configured URL (the "webhook URL" or "endpoint") on the destination application. Payload: The HTTP request typically includes a "payload" – a block of data (usually JSON, sometimes XML or form data) that describes the event and its relevant details. How Webhooks Work (Step-by-Step): Configuration: The user (or developer) configures the source application to send a webhook. This involves providing a Webhook URL (an endpoint on the receiving application) and specifying which events should trigger the webhook. Example: On GitHub, you tell it: "When code is pushed to this repository, send a POST request to https://my-ci-server.com/github-webhook." Event Occurs: A predefined event happens in the source application. Example: A developer pushes new code to the GitHub repository. HTTP Request Sent: The source application (GitHub) immediately constructs an HTTP POST request. This request is sent to the configured Webhook URL (https://my-ci-server.com/github-webhook). It includes a payload (e.g., a JSON object) containing details about the event (who pushed, what files changed, commit message, etc.). Request Received: The destination application (your CI server) has a web server listening at that specific URL. It receives the HTTP POST request and the payload. Processing & Action: The destination application's code processes the received data. Example: Your CI server parses the JSON payload, sees that new code was pushed, and automatically triggers a build and test process for that repository. Why Use Webhooks? (Benefits): Real-time Updates: Get information instantly, enabling immediate reactions and automation. Efficiency: Eliminates the need for constant polling, saving resources (CPU, network bandwidth) for both the sender and receiver. Automation: Seamlessly connect different services and automate workflows without manual intervention. Simplicity: Often easier to implement than complex APIs for event-driven communication. Extensibility: Allows third-party services to easily integrate with your application. Common Use Cases/Examples: GitHub/GitLab: When code is pushed, a webhook triggers a Continuous Integration/Continuous Deployment (CI/CD) pipeline (e.g., Jenkins, Travis CI, CircleCI) to build and test the code. Stripe/PayPal: When a payment is successful, a webhook notifies your e-commerce platform to update the order status, send a confirmation email, and trigger shipping. Slack: Integrate with other services (e.g., Jira, Trello, GitHub) to post notifications in a channel when specific events occur (e.g., new task created, code merged). Twilio/SendGrid: When an SMS is received or an email is delivered, a webhook can update your CRM or trigger a follow-up action. E-commerce Platforms: When a new order is placed, a webhook can notify an inventory management system, a shipping provider, or a customer support tool. Key Considerations & Best Practices: Security: Always use HTTPS for webhook URLs to encrypt data in transit. Verify Signatures: Many services send a unique signature in a header (e.g., X-Hub-Signature). Your receiving application should verify this signature using a shared secret to ensure the request genuinely came from the expected source and hasn't been tampered with. Validate Payload: Always validate the structure and content of the incoming payload. Reliability: Retries: Source applications often implement retry mechanisms if your webhook endpoint is temporarily unavailable. Idempotency: Design your receiving endpoint to handle duplicate requests gracefully (i.e., processing the same event multiple times doesn't cause unintended side effects). Error Handling & Logging: Log incoming webhooks and any errors during processing. Performance: Your webhook endpoint should respond quickly (typically within a few seconds) to avoid timeouts from the sender. If processing is complex, queue the task and respond immediately. Testing: Tools like Ngrok are invaluable for exposing your local development environment to the internet, allowing you to receive webhooks from external services. In essence, webhooks are the backbone of many modern, interconnected, and automated web services, enabling real-time communication and seamless integration.
+2025-10-23 16:04:39 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070118: Checking Student ID commands...
+2025-10-23 16:04:40 +0700 | Room: IPA2025 | Bot: Admin User: Starting checking commands...
+2025-10-23 16:04:39 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070118: Checking Student ID commands...
+2025-10-23 16:04:40 +0700 | Room: IPA2025 | Bot: Admin User: Starting checking commands...
+2025-10-23 16:04:40 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Admin User: Starting checking commands...
+2025-10-23 16:04:41 +0700 | Room: IPA2025 | Bot: /66070118 gigabit_status
+2025-10-23 16:04:44 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: GigabitEthernet1 up
+-> 1 up, 0 down, 0 administratively down
+2025-10-23 16:04:46 +0700 | Room: IPA2025 | Bot: /66070118 status
+2025-10-23 16:04:47 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: No Interface loopback 66070118
+2025-10-23 16:04:49 +0700 | Room: IPA2025 | Bot: /66070118 delete
+2025-10-23 16:04:50 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: Cannot delete: Interface loopback 66070118
+2025-10-23 16:04:53 +0700 | Room: IPA2025 | Bot: /66070118 status
+2025-10-23 16:04:55 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: No Interface loopback 66070118
+2025-10-23 16:04:58 +0700 | Room: IPA2025 | Bot: /66070118 disable
+2025-10-23 16:05:00 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: Cannot shutdown: Interface loopback 66070118
+2025-10-23 16:05:02 +0700 | Room: IPA2025 | Bot: /66070118 disable
+2025-10-23 16:05:05 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: Cannot shutdown: Interface loopback 66070118
+2025-10-23 16:05:07 +0700 | Room: IPA2025 | Bot: /66070118 showrun
+2025-10-23 16:05:27 +0700 | Room: IPA2025 | 66070118@kmitl.ac.th: Show running-config
+2025-10-23 16:05:28 +0700 | Room: IPA2025 | Bot: User 66070118 check commands completed.
+2025-10-23 16:12:02 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: /check 66070100
+2025-10-23 16:12:04 +0700 | Room: IPA2025 | Bot: Hello! 66070100: Checking Student ID commands...
+2025-10-23 16:12:06 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070100 checked in. Starting checking commands...
+2025-10-23 16:12:07 +0700 | Room: IPA2025 | Bot: /66070100 status
+2025-10-23 16:12:06 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070100 checked in. Starting checking commands...
+2025-10-23 16:12:07 +0700 | Room: IPA2025 | Bot: /66070100 status
+2025-10-23 16:12:08 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: No Interface loopback 66070100
+2025-10-23 16:12:11 +0700 | Room: IPA2025 | Bot: /66070100 status
+2025-10-23 16:12:14 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: No Interface loopback 66070100
+2025-10-23 16:12:16 +0700 | Room: IPA2025 | Bot: /66070100 create
+2025-10-23 16:12:17 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: Interface loopback 66070100 is created successfully
+2025-10-23 16:12:19 +0700 | Room: IPA2025 | Bot: /66070100 enable
+2025-10-23 16:12:21 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: Interface loopback 66070100 is enabled successfully
+2025-10-23 16:12:23 +0700 | Room: IPA2025 | Bot: /66070100 delete
+2025-10-23 16:12:26 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: Interface loopback 66070100 is deleted successfully
+2025-10-23 16:12:28 +0700 | Room: IPA2025 | Bot: /66070100 enable
+2025-10-23 16:12:29 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: Cannot enable: Interface loopback 66070100
+2025-10-23 16:12:31 +0700 | Room: IPA2025 | Bot: /66070100 showrun
+2025-10-23 16:12:39 +0700 | Room: IPA2025 | 66070100@kmitl.ac.th: show running config
+2025-10-23 16:12:40 +0700 | Room: IPA2025 | Bot: User 66070100 check commands completed.
+2025-10-23 16:18:09 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: /check 66070200
+2025-10-23 16:18:10 +0700 | Room: IPA2025 | Bot: Hello! 66070200: Checking Student ID commands...
+2025-10-23 16:18:10 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070200: Checking Student ID commands...
+2025-10-23 16:18:11 +0700 | Room: IPA2025 | Bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:18:11 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:18:12 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:18:16 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is created successfully
+2025-10-23 16:18:18 +0700 | Room: IPA2025 | Bot: /66070200 enable
+2025-10-23 16:18:33 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is enabled successfully
+2025-10-23 16:18:35 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:18:39 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is created successfully
+2025-10-23 16:18:40 +0700 | Room: IPA2025 | Bot: /66070200 disable
+2025-10-23 16:18:42 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:18:44 +0700 | Room: IPA2025 | Bot: /66070200 disable
+2025-10-23 16:18:48 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:18:49 +0700 | Room: IPA2025 | Bot: /66070200 enable
+2025-10-23 16:18:51 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is enabled successfully
+2025-10-23 16:18:54 +0700 | Room: IPA2025 | Bot: /66070200 disable
+2025-10-23 16:18:57 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:18:58 +0700 | Room: IPA2025 | Bot: /66070200 delete
+2025-10-23 16:19:06 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is deleted successfully
+2025-10-23 16:19:08 +0700 | Room: IPA2025 | Bot: /66070200 status
+2025-10-23 16:19:10 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: No Interface loopback 66070200
+2025-10-23 16:19:12 +0700 | Room: IPA2025 | Bot: User 66070200 check commands completed.
+2025-10-23 16:20:28 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: /check 66070200
+2025-10-23 16:20:29 +0700 | Room: IPA2025 | Bot: Hello! 66070200: Checking Student ID commands...
+2025-10-23 16:20:29 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070200: Checking Student ID commands...
+2025-10-23 16:20:30 +0700 | Room: IPA2025 | Bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:20:30 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:20:31 +0700 | Room: IPA2025 | Bot: /66070200 gigabit_status
+2025-10-23 16:20:35 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:20:38 +0700 | Room: IPA2025 | Bot: /66070200 showrun
+2025-10-23 16:20:55 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: show running config
+2025-10-23 16:20:58 +0700 | Room: IPA2025 | Bot: /66070200 delete
+2025-10-23 16:21:00 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Cannot delete: Interface loopback 66070200
+2025-10-23 16:21:02 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:21:04 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is created successfully
+2025-10-23 16:21:07 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:21:09 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is created successfully
+2025-10-23 16:21:11 +0700 | Room: IPA2025 | Bot: /66070200 enable
+2025-10-23 16:21:15 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is enabled successfully
+2025-10-23 16:21:16 +0700 | Room: IPA2025 | Bot: /66070200 status
+2025-10-23 16:21:18 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is enabled
+2025-10-23 16:21:21 +0700 | Room: IPA2025 | Bot: /66070200 delete
+2025-10-23 16:21:32 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is deleted successfully
+2025-10-23 16:21:34 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:21:36 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is created successfully
+2025-10-23 16:21:38 +0700 | Room: IPA2025 | Bot: User 66070200 check commands completed.
+2025-10-23 16:25:29 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070200: Checking Student ID commands...
+2025-10-23 16:25:30 +0700 | Room: IPA2025 | Bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:25:30 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:25:31 +0700 | Room: IPA2025 | Bot: /66070200 status
+2025-10-23 16:25:30 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070200 checked in. Starting checking commands...
+2025-10-23 16:25:31 +0700 | Room: IPA2025 | Bot: /66070200 status
+2025-10-23 16:25:34 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is enabled
+2025-10-23 16:25:36 +0700 | Room: IPA2025 | Bot: /66070200 gigabit_status
+2025-10-23 16:25:41 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:25:42 +0700 | Room: IPA2025 | Bot: /66070200 showrun
+2025-10-23 16:26:03 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: show running config
+2025-10-23 16:26:04 +0700 | Room: IPA2025 | Bot: /66070200 gigabit_status
+2025-10-23 16:26:08 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:26:11 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:26:14 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Cannot create: Interface loopback 66070200
+2025-10-23 16:26:15 +0700 | Room: IPA2025 | Bot: /66070200 delete
+2025-10-23 16:26:18 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is deleted successfully
+2025-10-23 16:26:20 +0700 | Room: IPA2025 | Bot: /66070200 gigabit_status
+2025-10-23 16:26:25 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:26:26 +0700 | Room: IPA2025 | Bot: /66070200 disable
+2025-10-23 16:26:29 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:26:31 +0700 | Room: IPA2025 | Bot: /66070200 create
+2025-10-23 16:26:33 +0700 | Room: IPA2025 | 66070200@kmitl.ac.th: Cannot create: Interface loopback 66070200
+2025-10-23 16:26:36 +0700 | Room: IPA2025 | Bot: User 66070200 check commands completed.
+2025-10-23 16:47:57 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070276: Checking Student ID commands...
+2025-10-23 16:47:58 +0700 | Room: IPA2025 | Bot: User: 66070276 checked in. Starting checking commands...
+2025-10-23 16:47:58 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070276 checked in. Starting checking commands...
+2025-10-23 16:47:59 +0700 | Room: IPA2025 | Bot: /66070276 gigabit_status
+2025-10-23 16:47:58 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070276 checked in. Starting checking commands...
+2025-10-23 16:47:59 +0700 | Room: IPA2025 | Bot: /66070276 gigabit_status
+2025-10-23 16:48:04 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:48:06 +0700 | Room: IPA2025 | Bot: /66070276 showrun
+2025-10-23 16:48:07 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Error: ansible-playbook command not found
+2025-10-23 16:48:08 +0700 | Room: IPA2025 | Bot: /66070276 enable
+2025-10-23 16:48:11 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Cannot enable: Interface loopback 66070276
+2025-10-23 16:48:13 +0700 | Room: IPA2025 | Bot: /66070276 create
+2025-10-23 16:48:16 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Interface loopback 66070276 is created successfully
+2025-10-23 16:48:18 +0700 | Room: IPA2025 | Bot: /66070276 showrun
+2025-10-23 16:48:19 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Error: ansible-playbook command not found
+2025-10-23 16:48:22 +0700 | Room: IPA2025 | Bot: /66070276 showrun
+2025-10-23 16:48:24 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Error: ansible-playbook command not found
+2025-10-23 16:48:27 +0700 | Room: IPA2025 | Bot: /66070276 create
+2025-10-23 16:48:30 +0700 | Room: IPA2025 | 66070276@kmitl.ac.th: Interface loopback 66070276 is created successfully
+2025-10-23 16:48:31 +0700 | Room: IPA2025 | Bot: User 66070276 check commands completed.
+2025-10-23 17:19:23 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070041: Checking Student ID commands...
+2025-10-23 17:19:24 +0700 | Room: IPA2025 | Bot: User: 66070041 checked in. Starting checking commands...
+2025-10-23 17:19:24 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070041 checked in. Starting checking commands...
+2025-10-23 17:19:26 +0700 | Room: IPA2025 | Bot: /66070041 disable
+2025-10-23 17:19:24 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070041 checked in. Starting checking commands...
+2025-10-23 17:19:26 +0700 | Room: IPA2025 | Bot: /66070041 disable
+2025-10-23 17:20:00 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Cannot shutdown: Interface loopback 66070041
+2025-10-23 17:20:02 +0700 | Room: IPA2025 | Bot: /66070041 disable
+2025-10-23 17:20:05 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Cannot shutdown: Interface loopback 66070041
+2025-10-23 17:20:07 +0700 | Room: IPA2025 | Bot: /66070041 gigabit_status
+2025-10-23 17:20:09 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:20:12 +0700 | Room: IPA2025 | Bot: /66070041 create
+2025-10-23 17:20:15 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Interface loopback 66070041 is created successfully
+2025-10-23 17:20:16 +0700 | Room: IPA2025 | Bot: /66070041 status
+2025-10-23 17:20:18 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Interface loopback 66070041 is enabled
+2025-10-23 17:20:19 +0700 | Room: IPA2025 | Bot: /66070041 enable
+2025-10-23 17:20:21 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Interface loopback 66070041 is enabled successfully
+2025-10-23 17:20:24 +0700 | Room: IPA2025 | Bot: /66070041 status
+2025-10-23 17:20:26 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Interface loopback 66070041 is enabled
+2025-10-23 17:20:28 +0700 | Room: IPA2025 | Bot: /66070041 showrun
+2025-10-23 17:20:37 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: show running config
+2025-10-23 17:20:38 +0700 | Room: IPA2025 | Bot: /66070041 enable
+2025-10-23 17:20:40 +0700 | Room: IPA2025 | 66070041@kmitl.ac.th: Interface loopback 66070041 is enabled successfully
+2025-10-23 17:20:41 +0700 | Room: IPA2025 | Bot: User 66070041 check commands completed.
+2025-10-23 17:29:12 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070244: Checking Student ID commands...
+2025-10-23 17:29:13 +0700 | Room: IPA2025 | Bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:12 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070244: Checking Student ID commands...
+2025-10-23 17:29:13 +0700 | Room: IPA2025 | Bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:13 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:14 +0700 | Room: IPA2025 | Bot: /66070244 status
+2025-10-23 17:29:17 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: No Interface loopback 66070244
+2025-10-23 17:29:19 +0700 | Room: IPA2025 | Bot: /66070244 enable
+2025-10-23 17:29:22 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Cannot enable: Interface loopback 66070244
+2025-10-23 17:29:23 +0700 | Room: IPA2025 | Bot: /66070244 status
+2025-10-23 17:29:26 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: No Interface loopback 66070244
+2025-10-23 17:29:28 +0700 | Room: IPA2025 | Bot: /66070244 status
+2025-10-23 17:29:31 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: No Interface loopback 66070244
+2025-10-23 17:29:33 +0700 | Room: IPA2025 | Bot: /66070244 delete
+2025-10-23 17:29:35 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Cannot delete: Interface loopback 66070244
+2025-10-23 17:29:37 +0700 | Room: IPA2025 | Bot: /66070244 gigabit_status
+2025-10-23 17:29:40 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:29:42 +0700 | Room: IPA2025 | Bot: /66070244 create
+2025-10-23 17:29:45 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is created successfully
+2025-10-23 17:29:46 +0700 | Room: IPA2025 | Bot: User 66070244 check commands completed.
+2025-10-23 17:29:56 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070244: Checking Student ID commands...
+2025-10-23 17:29:57 +0700 | Room: IPA2025 | Bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:57 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:58 +0700 | Room: IPA2025 | Bot: /66070244 create
+2025-10-23 17:29:57 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070244 checked in. Starting checking commands...
+2025-10-23 17:29:58 +0700 | Room: IPA2025 | Bot: /66070244 create
+2025-10-23 17:30:02 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is created successfully
+2025-10-23 17:30:04 +0700 | Room: IPA2025 | Bot: /66070244 showrun
+2025-10-23 17:30:09 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+2025-10-23 17:30:11 +0700 | Room: IPA2025 | Bot: /66070244 showrun
+2025-10-23 17:30:14 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+2025-10-23 17:30:15 +0700 | Room: IPA2025 | Bot: /66070244 showrun
+2025-10-23 17:30:18 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0
+2025-10-23 17:30:20 +0700 | Room: IPA2025 | Bot: /66070244 disable
+2025-10-23 17:30:25 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is shutdowned successfully
+2025-10-23 17:30:26 +0700 | Room: IPA2025 | Bot: /66070244 disable
+2025-10-23 17:30:31 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is shutdowned successfully
+2025-10-23 17:30:32 +0700 | Room: IPA2025 | Bot: /66070244 create
+2025-10-23 17:30:36 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is created successfully
+2025-10-23 17:30:37 +0700 | Room: IPA2025 | Bot: /66070244 delete
+2025-10-23 17:30:41 +0700 | Room: IPA2025 | 66070244@kmitl.ac.th: Interface loopback 66070244 is deleted successfully
+2025-10-23 17:30:43 +0700 | Room: IPA2025 | Bot: User 66070244 check commands completed.
+2025-10-23 17:36:36 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070191: Checking Student ID commands...
+2025-10-23 17:36:37 +0700 | Room: IPA2025 | Bot: User: 66070191 checked in. Starting checking commands...
+2025-10-23 17:36:37 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070191 checked in. Starting checking commands...
+2025-10-23 17:36:38 +0700 | Room: IPA2025 | Bot: /66070191 delete
+2025-10-23 17:36:37 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070191 checked in. Starting checking commands...
+2025-10-23 17:36:38 +0700 | Room: IPA2025 | Bot: /66070191 delete
+2025-10-23 17:36:39 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot delete: Interface loopback 66070191
+2025-10-23 17:36:41 +0700 | Room: IPA2025 | Bot: /66070191 delete
+2025-10-23 17:36:42 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot delete: Interface loopback 66070191
+2025-10-23 17:36:44 +0700 | Room: IPA2025 | Bot: /66070191 gigabit_status
+2025-10-23 17:36:47 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:36:48 +0700 | Room: IPA2025 | Bot: /66070191 gigabit_status
+2025-10-23 17:36:50 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:36:53 +0700 | Room: IPA2025 | Bot: /66070191 enable
+2025-10-23 17:36:55 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot enable: Interface loopback 66070191
+2025-10-23 17:36:56 +0700 | Room: IPA2025 | Bot: /66070191 gigabit_status
+2025-10-23 17:36:58 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:37:00 +0700 | Room: IPA2025 | Bot: /66070191 enable
+2025-10-23 17:37:03 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot enable: Interface loopback 66070191
+2025-10-23 17:37:05 +0700 | Room: IPA2025 | Bot: /66070191 delete
+2025-10-23 17:37:07 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot delete: Interface loopback 66070191
+2025-10-23 17:37:10 +0700 | Room: IPA2025 | Bot: /66070191 showrun
+2025-10-23 17:37:18 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: show_run_66070191_CSR1kv.txt
+2025-10-23 17:37:19 +0700 | Room: IPA2025 | Bot: User 66070191 check commands completed.
+2025-10-23 17:38:55 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: /check 66070191
+2025-10-23 17:38:56 +0700 | Room: IPA2025 | Bot: Hello! 66070191: Checking Student ID commands...
+2025-10-23 17:38:58 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070191 checked in. Starting checking commands...
+2025-10-23 17:38:58 +0700 | Room: IPA2025 | Bot: /66070191 showrun
+2025-10-23 17:38:58 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070191 checked in. Starting checking commands...
+2025-10-23 17:38:58 +0700 | Room: IPA2025 | Bot: /66070191 showrun
+2025-10-23 17:39:04 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: show_run_66070191_CSR1kv.txt
+2025-10-23 17:39:05 +0700 | Room: IPA2025 | Bot: /66070191 gigabit_status
+2025-10-23 17:39:07 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:39:09 +0700 | Room: IPA2025 | Bot: /66070191 gigabit_status
+2025-10-23 17:39:12 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 17:39:14 +0700 | Room: IPA2025 | Bot: /66070191 create
+2025-10-23 17:39:16 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot create: Interface loopback 66070191
+2025-10-23 17:39:19 +0700 | Room: IPA2025 | Bot: /66070191 delete
+2025-10-23 17:39:21 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Interface loopback 66070191 is deleted successfully
+2025-10-23 17:39:23 +0700 | Room: IPA2025 | Bot: /66070191 disable
+2025-10-23 17:39:25 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot shutdown: Interface loopback 66070191
+2025-10-23 17:39:28 +0700 | Room: IPA2025 | Bot: /66070191 disable
+2025-10-23 17:39:29 +0700 | Room: IPA2025 | 66070191@kmitl.ac.th: Cannot shutdown: Interface loopback 66070191
+2025-10-23 17:39:31 +0700 | Room: IPA2025 | Bot: User 66070191 check commands completed.
+2025-10-23 22:49:01 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070061: Checking Student ID commands...
+2025-10-23 22:49:02 +0700 | Room: IPA2025 | Bot: User: 66070061 checked in. Starting checking commands...
+2025-10-23 22:49:02 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070061 checked in. Starting checking commands...
+2025-10-23 22:49:03 +0700 | Room: IPA2025 | Bot: /66070061 disable
+2025-10-23 22:49:02 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070061 checked in. Starting checking commands...
+2025-10-23 22:49:03 +0700 | Room: IPA2025 | Bot: /66070061 disable
+2025-10-23 22:49:05 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: Cannot shutdown: Interface loopback 66070061
+2025-10-23 22:49:07 +0700 | Room: IPA2025 | Bot: /66070061 showrun
+2025-10-23 22:49:16 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: show running config
+2025-10-23 22:49:17 +0700 | Room: IPA2025 | Bot: /66070061 disable
+2025-10-23 22:49:20 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: Cannot shutdown: Interface loopback 66070061
+2025-10-23 22:49:22 +0700 | Room: IPA2025 | Bot: /66070061 enable
+2025-10-23 22:49:26 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: Cannot enable: Interface loopback 66070061
+2025-10-23 22:49:29 +0700 | Room: IPA2025 | Bot: /66070061 gigabit_status
+2025-10-23 22:49:32 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 22:49:35 +0700 | Room: IPA2025 | Bot: /66070061 status
+2025-10-23 22:49:39 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: No Interface loopback 66070061
+2025-10-23 22:49:41 +0700 | Room: IPA2025 | Bot: /66070061 status
+2025-10-23 22:49:44 +0700 | Room: IPA2025 | 66070061@kmitl.ac.th: No Interface loopback 66070061
+2025-10-23 22:49:46 +0700 | Room: IPA2025 | Bot: User 66070061 check commands completed.
+2025-10-23 22:50:03 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070177: Checking Student ID commands...
+2025-10-23 22:50:04 +0700 | Room: IPA2025 | Bot: User: 66070177 checked in. Starting checking commands...
+2025-10-23 22:50:04 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070177 checked in. Starting checking commands...
+2025-10-23 22:50:05 +0700 | Room: IPA2025 | Bot: /66070177 create
+2025-10-23 22:50:04 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070177 checked in. Starting checking commands...
+2025-10-23 22:50:05 +0700 | Room: IPA2025 | Bot: /66070177 create
+2025-10-23 22:50:07 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Interface loopback66070177 is created successfully
+2025-10-23 22:50:08 +0700 | Room: IPA2025 | Bot: /66070177 showrun
+2025-10-23 22:50:20 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: show running config
+2025-10-23 22:50:23 +0700 | Room: IPA2025 | Bot: /66070177 status
+2025-10-23 22:50:26 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Interface loopback 66070177 is enabled
+2025-10-23 22:50:27 +0700 | Room: IPA2025 | Bot: /66070177 status
+2025-10-23 22:50:31 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Interface loopback 66070177 is enabled
+2025-10-23 22:50:32 +0700 | Room: IPA2025 | Bot: /66070177 status
+2025-10-23 22:50:35 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Interface loopback 66070177 is enabled
+2025-10-23 22:50:36 +0700 | Room: IPA2025 | Bot: /66070177 delete
+2025-10-23 22:50:40 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Interface loopback 66070177 is deleted successfully
+2025-10-23 22:50:41 +0700 | Room: IPA2025 | Bot: /66070177 delete
+2025-10-23 22:50:44 +0700 | Room: IPA2025 | 66070177@kmitl.ac.th: Cannot delete: Interface loopback 66070177
+2025-10-23 22:50:45 +0700 | Room: IPA2025 | Bot: User 66070177 check commands completed.
+2025-10-23 22:51:15 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070107: Checking Student ID commands...
+2025-10-23 22:51:16 +0700 | Room: IPA2025 | Bot: User: 66070107 checked in. Starting checking commands...
+2025-10-23 22:51:16 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070107 checked in. Starting checking commands...
+2025-10-23 22:51:17 +0700 | Room: IPA2025 | Bot: /66070107 delete
+2025-10-23 22:51:16 +0700 | Room: IPA2025 | ipa-bot@webex.bot: User: 66070107 checked in. Starting checking commands...
+2025-10-23 22:51:17 +0700 | Room: IPA2025 | Bot: /66070107 delete
+2025-10-23 22:51:19 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Interface loopback 66070107 is deleted successfully
+2025-10-23 22:51:22 +0700 | Room: IPA2025 | Bot: /66070107 delete
+2025-10-23 22:51:25 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Cannot delete: Interface loopback 66070107
+2025-10-23 22:51:26 +0700 | Room: IPA2025 | Bot: /66070107 gigabit_status
+2025-10-23 22:51:29 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 22:51:31 +0700 | Room: IPA2025 | Bot: /66070107 enable
+2025-10-23 22:51:34 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Cannot enable: Interface loopback 66070107
+2025-10-23 22:51:35 +0700 | Room: IPA2025 | Bot: /66070107 enable
+2025-10-23 22:51:37 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Cannot enable: Interface loopback 66070107
+2025-10-23 22:51:38 +0700 | Room: IPA2025 | Bot: /66070107 create
+2025-10-23 22:51:41 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Interface loopback 66070107 is created successfully
+2025-10-23 22:51:43 +0700 | Room: IPA2025 | Bot: /66070107 create
+2025-10-23 22:51:44 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: Cannot create: Interface loopback 66070107
+2025-10-23 22:51:45 +0700 | Room: IPA2025 | Bot: /66070107 showrun
+2025-10-23 22:51:49 +0700 | Room: IPA2025 | 66070107@kmitl.ac.th: show running config (show_run_66070107_CSR1KV.txt)
+2025-10-23 22:51:50 +0700 | Room: IPA2025 | Bot: User 66070107 check commands completed.
+2025-10-23 23:06:03 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070001: Checking Student ID commands...
+2025-10-23 23:06:04 +0700 | Room: IPA2025 | Bot: User: 66070001 checked in. Starting checking commands...
+2025-10-23 23:06:03 +0700 | Room: IPA2025 | ipa-bot@webex.bot: Hello! 66070001: Checking Student ID commands...
+2025-10-23 23:06:04 +0700 | Room: IPA2025 | Bot: User: 66070001 checked in. Starting checking commands...
+2025-10-23 23:06:05 +0700 | Room: IPA2025 | ipa-bot@webex.bot: /66070001 enable
+2025-10-23 23:06:06 +0700 | Room: IPA2025 | Bot: Interface loopback 66070001 is enabled successfully
+2025-10-23 23:06:06 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Interface loopback 66070001 is enabled successfully
+2025-10-23 23:06:08 +0700 | Room: IPA2025 | Bot: /66070001 showrun
+2025-10-23 23:06:13 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Here is the requested config: show_run_66070001_IPA-Router1.txt
+2025-10-23 23:06:16 +0700 | Room: IPA2025 | Bot: /66070001 disable
+2025-10-23 23:06:18 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Interface loopback 66070001 is shutdowned successfully
+2025-10-23 23:06:21 +0700 | Room: IPA2025 | Bot: /66070001 create
+2025-10-23 23:06:23 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Cannot create: Interface loopback 66070001
+2025-10-23 23:06:25 +0700 | Room: IPA2025 | Bot: /66070001 create
+2025-10-23 23:06:27 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Cannot create: Interface loopback 66070001
+2025-10-23 23:06:28 +0700 | Room: IPA2025 | Bot: /66070001 status
+2025-10-23 23:06:29 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: down
+2025-10-23 23:06:31 +0700 | Room: IPA2025 | Bot: /66070001 enable
+2025-10-23 23:06:32 +0700 | Room: IPA2025 | 66070001@kmitl.ac.th: Interface loopback 66070001 is enabled successfully
+2025-10-23 23:06:34 +0700 | Room: IPA2025 | Bot: User 66070001 check commands completed.

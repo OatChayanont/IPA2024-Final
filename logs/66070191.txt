@@ -1,0 +1,14 @@
+/66070191 showrun
+show_run_66070191_CSR1kv.txt
+/66070191 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070191 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070191 create
+Cannot create: Interface loopback 66070191
+/66070191 delete
+Interface loopback 66070191 is deleted successfully
+/66070191 disable
+Cannot shutdown: Interface loopback 66070191
+/66070191 disable
+Cannot shutdown: Interface loopback 66070191

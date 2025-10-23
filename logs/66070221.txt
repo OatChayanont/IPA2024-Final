@@ -1,0 +1,14 @@
+/66070221 showrun
+show running config
+/66070221 status
+Interface loopback 66070221 is enabled
+/66070221 disable
+Interface loopback 66070221 is shutdowned successfully
+/66070221 showrun
+show running config
+/66070221 delete
+Interface loopback 66070221 is deleted successfully
+/66070221 delete
+Cannot delete: Interface loopback 66070221
+/66070221 disable
+Interface loopback 66070221 is shutdowned successfully

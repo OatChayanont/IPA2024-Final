@@ -1,0 +1,16 @@
+/66070136 disable
+Interface loopback 66070136 is shutdowned successfully
+/66070136 delete
+Interface loopback 66070136 is deleted successfully
+/66070136 disable
+Cannot shutdown: Interface loopback 66070136
+/66070136 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070136 delete
+Cannot delete: Interface loopback 66070136
+/66070136 enable
+Cannot enable: Interface loopback 66070136
+/66070136 status
+No Interface loopback 66070136
+/66070136 enable
+Cannot enable: Interface loopback 66070136

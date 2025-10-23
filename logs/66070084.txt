@@ -1,0 +1,16 @@
+/66070084 status
+Interface Loopback66070084 is enabled.
+/66070084 delete
+Interface Loopback66070084 is deleted successfully.
+/66070084 showrun
+Show running config
+/66070084 create
+Interface Loopback66070084 is created successfully.
+/66070084 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070084 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070084 showrun
+Show running config
+/66070084 enable
+Interface Loopback66070084 is enabled successfully

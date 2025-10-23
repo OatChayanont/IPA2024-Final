@@ -1,0 +1,15 @@
+/66070118 gigabit_status
+GigabitEthernet1 up
+-> 1 up, 0 down, 0 administratively down
+/66070118 status
+No Interface loopback 66070118
+/66070118 delete
+Cannot delete: Interface loopback 66070118
+/66070118 status
+No Interface loopback 66070118
+/66070118 disable
+Cannot shutdown: Interface loopback 66070118
+/66070118 disable
+Cannot shutdown: Interface loopback 66070118
+/66070118 showrun
+Show running-config

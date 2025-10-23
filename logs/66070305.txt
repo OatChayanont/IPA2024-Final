@@ -1,0 +1,16 @@
+/66070305 showrun
+Error: Ansible
+/66070305 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070305 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070305 status
+No Interface loopback 66070305
+/66070305 create
+Interface loopback 66070305 is created successfully
+/66070305 create
+Cannot create: Interface loopback 66070305
+/66070305 showrun
+Error: Ansible
+/66070305 disable
+Interface loopback 66070305 is disabled successfully

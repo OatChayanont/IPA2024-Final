@@ -1,0 +1,16 @@
+/66070091 showrun
+show running config
+/66070091 status
+Error: No Interface Loopback66070091
+/66070091 showrun
+show running config
+/66070091 enable
+Cannot enable: Interface Loopback66070091
+/66070091 delete
+Cannot delete: Interface Loopback66070091
+/66070091 showrun
+show running config
+/66070091 create
+Interface Loopback66070091 is created successfully
+/66070091 create
+Interface Loopback66070091 is created successfully

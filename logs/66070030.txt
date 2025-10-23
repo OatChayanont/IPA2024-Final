@@ -1,0 +1,14 @@
+/66070030 delete
+Cannot delete: Interface loopback 66070030
+/66070030 disable
+Cannot shutdown: Interface loopback 66070030
+/66070030 showrun
+Error: Ansible
+/66070030 gigabit_status
+/66070101 showrun
+/66070030 disable
+show running config
+/66070030 status
+No Interface loopback 66070030
+/66070030 delete
+Cannot delete: Interface loopback 66070030

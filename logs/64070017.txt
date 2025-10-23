@@ -1,0 +1,16 @@
+/64070017 enable
+Interface Loopback64070017 does not exist
+/64070017 create
+Interface Loopback64070017 created successfully
+/64070017 showrun
+show running config
+/64070017 status
+Interface Loopback64070017 is up (admin up / oper up)
+/64070017 delete
+Interface Loopback64070017 deleted successfully
+/64070017 status
+No operational data returned for Loopback64070017
+/64070017 disable
+Interface Loopback64070017 does not exist
+/64070017 showrun
+show running config

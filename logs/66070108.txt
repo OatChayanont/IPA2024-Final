@@ -1,0 +1,14 @@
+/66070108 delete
+Interface loopback 66070108 is deleted successfully
+/66070108 disable
+Cannot shutdown: Interface loopback 66070108
+/66070108 delete
+Cannot delete: Interface loopback 66070108
+/66070108 status
+No Interface loopback 66070108
+/66070108 create
+Interface loopback 66070108 is created successfully
+/66070108 delete
+Interface loopback 66070108 is deleted successfully
+/66070108 enable
+Cannot enable: Interface loopback 66070108

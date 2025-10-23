@@ -1,0 +1,59 @@
+2025-10-23 15:39:49 +0700 | Room: Nontawich Tungkun | พี่ครับถ้าอยากลองเช็คดูว่าถูกไหมพิมเองเลยได้ไหมครับ
+2025-10-23 16:47:56 +0700 | Room: IPA2025 | /check 66070276
+2025-10-23 16:48:04 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:48:07 +0700 | Room: IPA2025 | Error: ansible-playbook command not found
+2025-10-23 16:48:11 +0700 | Room: IPA2025 | Cannot enable: Interface loopback 66070276
+2025-10-23 16:48:16 +0700 | Room: IPA2025 | Interface loopback 66070276 is created successfully
+2025-10-23 16:48:19 +0700 | Room: IPA2025 | Error: ansible-playbook command not found
+2025-10-23 16:48:24 +0700 | Room: IPA2025 | Error: ansible-playbook command not found
+2025-10-23 16:48:30 +0700 | Room: IPA2025 | Interface loopback 66070276 is created successfully
+2025-10-23 18:37:33 +0700 | Room: IPA2025 | /check 66070276
+2025-10-23 18:44:26 +0700 | Room: IPA2025 | /66070276 status
+2025-10-23 18:44:29 +0700 | Room: IPA2025 | Interface loopback 66070276 is enabled
+2025-10-23 18:45:26 +0700 | Room: IPA2025 | /66070276 disable
+2025-10-23 18:48:31 +0700 | Room: IPA2025 | /66070276 create
+2025-10-23 18:48:35 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070276
+2025-10-23 18:48:51 +0700 | Room: IPA2025 | /66070276 delete
+2025-10-23 18:53:18 +0700 | Room: IPA2025 | Interface loopback 66070276 is deleted successfully
+2025-10-23 18:53:34 +0700 | Room: IPA2025 | /66070276 create
+2025-10-23 18:55:16 +0700 | Room: IPA2025 | Interface loopback 66070276 is created successfully
+2025-10-23 18:55:23 +0700 | Room: IPA2025 | /66070276 create
+2025-10-23 18:55:26 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070276
+2025-10-23 18:55:32 +0700 | Room: IPA2025 | /66070276 status
+2025-10-23 18:55:36 +0700 | Room: IPA2025 | Interface loopback 66070276 is enabled
+2025-10-23 18:55:57 +0700 | Room: IPA2025 | /66070276 disable
+2025-10-23 18:56:01 +0700 | Room: IPA2025 | Interface loopback 66070276 is shutdowned successfully
+2025-10-23 18:56:11 +0700 | Room: IPA2025 | /66070276 status
+2025-10-23 18:56:14 +0700 | Room: IPA2025 | Interface loopback 66070276 is disabled
+2025-10-23 18:56:24 +0700 | Room: IPA2025 | /66070276 enable
+2025-10-23 18:56:27 +0700 | Room: IPA2025 | Interface loopback 66070276 is enabled successfully
+2025-10-23 18:56:33 +0700 | Room: IPA2025 | /66070276 status
+2025-10-23 18:56:36 +0700 | Room: IPA2025 | Interface loopback 66070276 is enabled
+2025-10-23 18:56:54 +0700 | Room: IPA2025 | /66070276 gigabit_status
+2025-10-23 18:56:59 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 18:57:19 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 18:57:21 +0700 | Room: IPA2025 | Error: Ansible
+2025-10-23 19:01:14 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:01:18 +0700 | Room: IPA2025 | Error: Ansible
+2025-10-23 19:04:56 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:05:05 +0700 | Room: IPA2025 | Error: File not found after run.
+2025-10-23 19:12:02 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:12:11 +0700 | Room: IPA2025 | Error: File not found after run.
+2025-10-23 19:16:34 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:16:42 +0700 | Room: IPA2025 | Error: File not found after run.
+2025-10-23 19:23:06 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:23:14 +0700 | Room: IPA2025 | Error: File not found after run.
+2025-10-23 19:26:13 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:26:23 +0700 | Room: IPA2025 | Attached is the running config: show_run_66070276_10.0.15.65.txt
+2025-10-23 19:42:36 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 19:42:46 +0700 | Room: IPA2025 | 
+2025-10-23 20:13:51 +0700 | Room: Nontawich Tungkun | พี่ครับเสร็จแล้วทำไง
+2025-10-23 21:02:34 +0700 | Room: Nontawich Tungkun | พี่ครับใช้ /check ได้เลยไหมครับ
+2025-10-23 21:47:53 +0700 | Room: IPA2025 | /check 66070276
+2025-10-23 21:48:41 +0700 | Room: Nontawich Tungkun | พี่ /check ไม่ขึ้นครับ
+2025-10-23 22:18:23 +0700 | Room: IPA2025 | /66070276 create
+2025-10-23 22:18:26 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070276
+2025-10-23 22:19:04 +0700 | Room: IPA2025 | /66070276 showrun
+2025-10-23 22:19:13 +0700 | Room: IPA2025 | show_run_66070276_10.0.15.65.txt
+2025-10-23 22:45:49 +0700 | Room: Nontawich Tungkun | เสร็จแล้วส่งยังไงครับ
+2025-10-23 22:47:18 +0700 | Room: Nontawich Tungkun | ขอบคุณครับ

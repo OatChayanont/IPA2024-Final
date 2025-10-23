@@ -1,0 +1,16 @@
+/66070315 disable
+Interface loopback 66070315 is shutdowned successfully
+/66070315 showrun
+show running config
+/66070315 create
+Cannot create: Interface loopback 66070315
+/66070315 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 administratively down, GigabitEthernet4 administratively down -> 1 up, 0 down, 3 administratively down
+/66070315 showrun
+show running config
+/66070315 status
+Interface loopback 66070315 is disabled
+/66070315 disable
+Interface loopback 66070315 is shutdowned successfully
+/66070315 disable
+Interface loopback 66070315 is shutdowned successfully

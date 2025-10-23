@@ -1,0 +1,39 @@
+2025-10-23 15:24:28 +0700 | Room: Sonrasamon Meepasee | https://github.com/Yunoya18/IPA2024-Final
+2025-10-23 15:24:28 +0700 | Room: Sonrasamon Meepasee | ส่ง ipa รหัส 66070200 ค้าบ 🙇‍♀️
+2025-10-23 16:18:09 +0700 | Room: IPA2025 | /check 66070200
+2025-10-23 16:18:16 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:18:33 +0700 | Room: IPA2025 | Interface loopback 66070200 is enabled successfully
+2025-10-23 16:18:39 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:18:42 +0700 | Room: IPA2025 | Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:18:48 +0700 | Room: IPA2025 | Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:18:51 +0700 | Room: IPA2025 | Interface loopback 66070200 is enabled successfully
+2025-10-23 16:18:57 +0700 | Room: IPA2025 | Interface loopback 66070200 is shutdowned successfully
+2025-10-23 16:19:06 +0700 | Room: IPA2025 | Interface loopback 66070200 is deleted successfully
+2025-10-23 16:19:10 +0700 | Room: IPA2025 | No Interface loopback 66070200
+2025-10-23 16:20:28 +0700 | Room: IPA2025 | /check 66070200
+2025-10-23 16:20:35 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:20:55 +0700 | Room: IPA2025 | show running config
+2025-10-23 16:21:00 +0700 | Room: IPA2025 | Cannot delete: Interface loopback 66070200
+2025-10-23 16:21:04 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:21:09 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:21:15 +0700 | Room: IPA2025 | Interface loopback 66070200 is enabled successfully
+2025-10-23 16:21:18 +0700 | Room: IPA2025 | Interface loopback 66070200 is enabled
+2025-10-23 16:21:32 +0700 | Room: IPA2025 | Interface loopback 66070200 is deleted successfully
+2025-10-23 16:21:36 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:24:56 +0700 | Room: IPA2025 | /66070200 create
+2025-10-23 16:24:59 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070200
+2025-10-23 16:25:10 +0700 | Room: IPA2025 | /66070200 delete
+2025-10-23 16:25:14 +0700 | Room: IPA2025 | Interface loopback 66070200 is deleted successfully
+2025-10-23 16:25:17 +0700 | Room: IPA2025 | /66070200 create
+2025-10-23 16:25:20 +0700 | Room: IPA2025 | Interface loopback 66070200 is created successfully
+2025-10-23 16:25:27 +0700 | Room: IPA2025 | /check 66070200
+2025-10-23 16:25:34 +0700 | Room: IPA2025 | Interface loopback 66070200 is enabled
+2025-10-23 16:25:41 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:26:03 +0700 | Room: IPA2025 | show running config
+2025-10-23 16:26:08 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:26:14 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070200
+2025-10-23 16:26:18 +0700 | Room: IPA2025 | Interface loopback 66070200 is deleted successfully
+2025-10-23 16:26:25 +0700 | Room: IPA2025 | GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+2025-10-23 16:26:33 +0700 | Room: IPA2025 | Cannot create: Interface loopback 66070200
+2025-10-23 16:29:33 +0700 | Room: Sonrasamon Meepasee | ถ้าแก้โค้ดที่ผิดไปแล้วต้อง check ใหม่มั้ยคับ
+2025-10-23 17:41:33 +0700 | Room: Sonrasamon Meepasee | ขอบคุณค้าบ

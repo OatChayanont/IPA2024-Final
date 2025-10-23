@@ -1,0 +1,18 @@
+/66070014 delete
+Cannot delete: Interface loopback66070014
+/66070014 create
+Interface loopback66070014 is created successfully
+/66070014 showrun
+show running config
+/66070014 enable
+Interface loopback66070014 is enabled successfully
+/66070014 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 administratively down, GigabitEthernet4 down -> 1 up, 1 down, 2 administratively down
+/66070014 disable
+Interface loopback66070014 is shutdowned successfully
+/66070014 showrun
+Error: Ansible
+/66070014 status
+Interface loopback66070014 is disabled
+/66070014 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 administratively down, GigabitEthernet4 down -> 1 up, 1 down, 2 administratively down

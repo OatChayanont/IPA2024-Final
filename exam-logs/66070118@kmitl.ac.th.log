@@ -1,0 +1,13 @@
+2025-10-23 15:59:45 +0700 | Room: IPA2025 | /66070118 showrun
+2025-10-23 16:00:06 +0700 | Room: IPA2025 | Show running-config
+2025-10-23 16:00:16 +0700 | Room: IPA2025 | /check 66070118
+2025-10-23 16:02:51 +0700 | Room: IPA2025 | /ask โหลๆๆ
+2025-10-23 16:03:00 +0700 | Room: IPA2025 | 😭
+2025-10-23 16:04:44 +0700 | Room: IPA2025 | GigabitEthernet1 up
+-> 1 up, 0 down, 0 administratively down
+2025-10-23 16:04:47 +0700 | Room: IPA2025 | No Interface loopback 66070118
+2025-10-23 16:04:50 +0700 | Room: IPA2025 | Cannot delete: Interface loopback 66070118
+2025-10-23 16:04:55 +0700 | Room: IPA2025 | No Interface loopback 66070118
+2025-10-23 16:05:00 +0700 | Room: IPA2025 | Cannot shutdown: Interface loopback 66070118
+2025-10-23 16:05:05 +0700 | Room: IPA2025 | Cannot shutdown: Interface loopback 66070118
+2025-10-23 16:05:27 +0700 | Room: IPA2025 | Show running-config

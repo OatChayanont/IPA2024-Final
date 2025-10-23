@@ -1,0 +1,14 @@
+/66070024 delete
+Interface Loopback66070024 is deleted successfully
+/66070024 status
+No Interface Loopback66070024
+/66070024 create
+Interface Loopback66070024 is created successfully
+/66070024 disable
+Interface Loopback66070024 is disabled successfully
+/66070024 delete
+Interface Loopback66070024 is deleted successfully
+/66070024 gigabit_status
+GigabitEthernet1 unknown, GigabitEthernet2 unknown, GigabitEthernet3 unknown, GigabitEthernet4 unknown -> 0 up, 0 down, 0 administratively down
+/66070024 showrun
+show running config

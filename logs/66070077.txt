@@ -1,0 +1,16 @@
+/66070077 status
+Interface loopback 66070077 is disabled
+/66070077 enable
+Interface loopback 66070077 is enabled successfully
+/66070077 gigabit_status
+Error: Failed to process command
+/66070077 status
+Interface loopback 66070077 is enabled
+/66070077 status
+Interface loopback 66070077 is enabled
+/66070077 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 down, GigabitEthernet3 administratively down, GigabitEthernet4 administratively down -> 1 up, 1 down, 2 administratively down
+/66070077 enable
+Interface loopback 66070077 is enabled successfully
+/66070077 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 down, GigabitEthernet3 administratively down, GigabitEthernet4 administratively down -> 1 up, 1 down, 2 administratively down

@@ -1,0 +1,18 @@
+/66070039 enable
+Interface Loopback66070039 is enabled successfully
+/66070039 showrun
+Here is the config for 66070039
+/66070039 disable
+Interface Loopback66070039 is shutdowned successfully
+/66070039 status
+Interface loopback 66070039 is disabled
+/66070039 create
+Cannot create: Interface Loopback66070039
+/66070039 disable
+Interface Loopback66070039 is shutdowned successfully
+/66070039 disable
+Interface Loopback66070039 is shutdowned successfully
+/66070039 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070039 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down

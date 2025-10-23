@@ -1,0 +1,18 @@
+/66070239 status
+Interface loopback 66070239 is enabled
+/66070239 disable
+Interface loopback 66070239 is shutdowned successfully
+/66070239 showrun
+show running config
+/66070239 disable
+Interface loopback 66070239 is shutdowned successfully
+/66070239 enable
+Interface loopback 66070239 is enabled successfully
+/66070239 enable
+Interface loopback 66070239 is enabled successfully
+/66070239 enable
+Interface loopback 66070239 is enabled successfully
+/66070239 delete
+Interface loopback 66070239 is deleted successfully
+/66070239 showrun
+show running config

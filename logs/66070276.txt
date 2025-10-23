@@ -1,0 +1,14 @@
+/66070276 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070276 showrun
+Error: ansible-playbook command not found
+/66070276 enable
+Cannot enable: Interface loopback 66070276
+/66070276 create
+Interface loopback 66070276 is created successfully
+/66070276 showrun
+Error: ansible-playbook command not found
+/66070276 showrun
+Error: ansible-playbook command not found
+/66070276 create
+Interface loopback 66070276 is created successfully

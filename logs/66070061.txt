@@ -1,0 +1,14 @@
+/66070061 disable
+Cannot shutdown: Interface loopback 66070061
+/66070061 showrun
+show running config
+/66070061 disable
+Cannot shutdown: Interface loopback 66070061
+/66070061 enable
+Cannot enable: Interface loopback 66070061
+/66070061 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070061 status
+No Interface loopback 66070061
+/66070061 status
+No Interface loopback 66070061

@@ -1,0 +1,14 @@
+/66070138 create
+Interface loopback 66070138 is created successfully
+/66070138 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 administratively down, GigabitEthernet4 administratively down, GigabitEthernet4 administratively down, GigabitEthernet4 administratively down, GigabitEthernet4 administratively down -> 1 up, 0 down, 3 administratively down
+/66070138 showrun
+show running config
+/66070138 enable
+/check 66070239
+/66070138 gigabit_status
+Interface loopback 66070138 is enabled successfully
+/66070138 status
+Interface loopback 66070138 is enabled
+/66070138 delete
+Interface loopback 66070138 is deleted successfully

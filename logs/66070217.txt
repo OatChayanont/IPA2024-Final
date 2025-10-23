@@ -1,0 +1,14 @@
+/66070217 delete
+Cannot delete: Interface loopback 66070217
+/66070217 enable
+Cannot enable: Interface loopback 66070217
+/66070217 enable
+Cannot enable: Interface loopback 66070217
+/66070217 status
+No Interface loopback 66070217
+/66070217 delete
+Cannot delete: Interface loopback 66070217
+/66070217 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down, Loopback1 up, Loopback100 up, Loopback65070030 up, Loopback66070007 up, Loopback66070024 up, Loopback66070039 administratively down, Loopback66070041 up, Loopback66070052 up, Loopback66070055 up, Loopback66070069 administratively down, Loopback66070084 up, Loopback66070091 up, Loopback66070118 up, Loopback66070124 up, Loopback66070136 up, Loopback66070139 up, Loopback66070200 administratively down, Loopback66070216 up, Loopback66070218 up, Loopback66070221 up, Loopback66070225 administratively down, Loopback66070246 up, Loopback66070247 administratively down, Loopback66070305 administratively down -> 19 up, 2 down, 7, administratively down
+/66070217 delete
+Cannot delete: Interface loopback 66070217

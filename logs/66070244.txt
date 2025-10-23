@@ -1,0 +1,70 @@
+/66070244 create
+Interface loopback 66070244 is created successfully
+/66070244 showrun
+Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+
+/66070244 showrun
+Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+
+/66070244 showrun
+Failure 
+PLAY [Backup running config from CSR router] ***********************************
+
+TASK [Show running-config from device] *****************************************
+[ERROR]: Task failed: Action failed: ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]
+Origin: /home/kacha/Desktop/github/IPA2024-Final/showrun.yml:8:7
+
+6
+7   tasks:
+8     - name: Show running-config from device
+        ^ column 7
+
+fatal: [CSR1000v]: FAILED! => {"changed": false, "msg": "ssh connection failed: ssh connect failed: kex error : no match for method kex algos: server [diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1], client [curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group18-sha512,diffie-hellman-group16-sha512,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256]"}
+
+PLAY RECAP *********************************************************************
+CSR1000v                   : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+
+/66070244 disable
+Interface loopback 66070244 is shutdowned successfully
+/66070244 disable
+Interface loopback 66070244 is shutdowned successfully
+/66070244 create
+Interface loopback 66070244 is created successfully
+/66070244 delete
+Interface loopback 66070244 is deleted successfully

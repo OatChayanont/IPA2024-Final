@@ -1,0 +1,18 @@
+/66070218 create
+Cannot create: Interface loopback 66070218
+/66070218 status
+Interface loopback 66070218 is disabled
+/66070218 delete
+Interface loopback 66070218 is deleted successfully
+/66070218 showrun
+show running config
+/66070218 enable
+Cannot enable: Interface loopback 66070218
+/66070218 status
+No Interface loopback 66070218
+/66070218 create
+created successfully
+/66070218 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 administratively down, GigabitEthernet4 down, Loopback1 up, Loopback100 up, Loopback65070030 up, Loopback66070007 up, Loopback66070024 up, Loopback66070039 up, Loopback66070046 administratively down, Loopback66070052 up, Loopback66070101 up, Loopback66070118 up, Loopback66070119 up, Loopback66070124 up, Loopback66070200 administratively down, Loopback66070218 up, Loopback66070221 up, Loopback66070225 up, Loopback66070246 up, Loopback66070247 up -> 17 up, 1 down, 4 administratively down
+/66070218 enable
+Cannot enable: Interface loopback 66070218

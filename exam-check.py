@@ -12,6 +12,9 @@ import os
 import time
 from pathlib import Path
 from dotenv import load_dotenv
+import random
+from google.genai import Client 
+from google.genai.types import GenerateContentConfig
 
 #######################################################################################
 # 2. Assign the Webex access token to the variable ACCESS_TOKEN using environment variables.
@@ -47,9 +50,10 @@ def send_webex_message(text):
                 "Authorization": f"Bearer {WEBEX_BOT_TOKEN}",
                 "Content-Type": "application/json"
             },
-            json={"roomId": WEBEX_ROOM_ID, "text": text},
+            json={"roomId": WEBEX_ROOM_ID, "markdown": text},
             timeout=10
         )
+        print("Successfully sent message to Webex")
     except Exception as e:
         print(f"Webex post failed: {e}")
 
@@ -130,15 +134,54 @@ def ipa_showrun():
     print(responseMessage)
     return responseMessage
 
-#########################################################################################
+def check_commands(user):
+    commands = [
+    "create",
+    "status",
+    "enable",
+    "gigabit_status",
+    "showrun",
+    "disable",
+    "delete",
+    ]
+    command_count = random.randrange(7, 10)
+    result = []
+    for _ in range(command_count):
+        command_execute = random.randrange(0, len(commands))
+        send_webex_message(f"/{user} {commands[command_execute]}")
+        result.append(f"/{user} {commands[command_execute]}")
+        while True:
+            time.sleep(1)
+            json_data = get_message_from_webex()
+            messages = json_data["items"]
+            message = messages[0]["text"]
+            print("Received message: " + message)
+            if message.startswith(f"/{user}"):
+                continue
+            elif message.startswith("/cancel"):
+                result.append("Cancelled by user.")
+                send_webex_message(f"Command checking for user {user} cancelled. \n --------------------------------------------------")
+                return 
+            else:
+                result.append(message)
+                break
+    send_webex_message(f"User {user} check commands completed. \n --------------------------------------------------")
+    
+    script_dir = Path(__file__).resolve().parent
+    try:
+        log_dir = script_dir / "logs"
+        log_dir.mkdir(parents=True, exist_ok=True)
+        file_path = log_dir / f"{user}.txt"
+    except OSError as e:
+        print(f"Warning: Could not create directory {log_dir}: {e}. Saving to script directory.")
+        file_path = script_dir / f"{user}.txt"
+    print(file_path)
+    print(result)
+    with open(file_path, "w") as f:
+        f.write("\n".join(result))
+    print(f"Results for {user} saved to {file_path}")
 
-while True:
-    # always add 1 second of delay to the loop to not go over a rate limit of API calls
-    time.sleep(1)
-
-    # the Webex Teams GET parameters
-    #  "roomId" is the ID of the selected room
-    #  "max": 1  limits to get only the very last message in the room
+def get_message_from_webex():
     getParameters = {"roomId": roomIdToGetMessages, "max": 1}
 
     # the Webex Teams HTTP header, including the Authoriztion
@@ -166,12 +209,36 @@ while True:
     # check if there are any messages in the "items" array
     if len(json_data["items"]) == 0:
         raise Exception("There are no messages in the room.")
+    return json_data
+def connect_to_gemini(question):
+    client = Client(api_key=os.getenv("GOOGLE_API_KEY"))
+    model = "gemini-2.5-flash"
+    resp = client.models.generate_content(
+        model=model,
+        contents=question,
+        config=GenerateContentConfig(temperature=0.3),
+        )
+    print("Gemini Response:", resp.text)
+    return resp.text
+#########################################################################################
+
+while True:
+    # always add 1 second of delay to the loop to not go over a rate limit of API calls
+    time.sleep(1)
+
+    json_data = get_message_from_webex()
+    # the Webex Teams GET parameters
+    #  "roomId" is the ID of the selected room
+    #  "max": 1  limits to get only the very last message in the room
+    
 
     # store the array of messages
     messages = json_data["items"]
     
     # store the text of the first message in the array
     message = messages[0]["text"]
+    sender = messages[0]["personEmail"]
+    admins = ["64070017", "chotipat.po"]
     print("Received message: " + message)
 
     # check if the text of the message starts with the magic character "/" followed by your studentID and a space and followed by a command name
@@ -186,7 +253,6 @@ while True:
 
         if command == "create":
             ipa_create()
-            
         elif command == "delete":
             ipa_delete()
         elif command == "enable":
@@ -199,9 +265,9 @@ while True:
             ipa_gigabit_status()
         elif command == "showrun":
             ipa_showrun()
-        # else:
-        #     responseMessage = "Error: No command or unknown command"
-        #     send_webex_message(responseMessage)
+        else:
+            responseMessage = "Error: No command or unknown command"
+            send_webex_message(responseMessage)
     elif message.startswith("/help"):
         responseMessage = (
                 "สิ่งที่ต้องทำ ทำใน Router IP 10.0.15.61:\n"
@@ -215,7 +281,25 @@ while True:
         )
         send_webex_message(responseMessage)
         #################################################
-
+    elif message.startswith("/check"):
+        user = message.split(" ")[1]
+        print(user)
+        send_webex_message(f"--------------------------------------------------\n Hello! {user}: Checking Student ID commands...")
+        if sender.split("@")[0] == user:
+            send_webex_message(f"User: {user} checked in. Starting checking commands...")
+            check_commands(user)
+        elif sender.split("@")[0] in admins:
+            send_webex_message(f"Admin User: Starting checking commands...")
+            check_commands(user)
+        else:
+            send_webex_message(f"You are not allowed to check for user {user}.")
+        #################################################
+    elif message.startswith("/ask"):
+        question = message.split(" ")[1:]
+        question = " ".join(question)
+        print("Question: " + question)
+        ans = connect_to_gemini(question)
+        send_webex_message(ans)
         
 # 6. Complete the code to post the message to the Webex Teams room.
 

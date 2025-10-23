@@ -1,0 +1,14 @@
+/66070216 showrun
+Here is the running configuration:
+/66070216 delete
+Cannot delete: Interface loopback 66070216
+/66070216 status
+No Interface loopback 66070216
+/66070216 status
+No Interface loopback 66070216
+/66070216 disable
+Cannot shutdown: Interface loopback 66070216
+/66070216 showrun
+Here is the running configuration:
+/66070216 enable
+Cannot enable: Interface loopback 66070216

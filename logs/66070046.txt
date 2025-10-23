@@ -1,0 +1,16 @@
+/66070046 create
+Interface loopback 66070046 is created successfully
+/66070046 enable
+Interface loopback 66070046 is enabled successfully
+/66070046 gigabit_status
+GigabitEthernet1 down, GigabitEthernet2 down, GigabitEthernet3 down, GigabitEthernet4 down -> 0 up, 4 down, 0 administratively down
+/66070046 enable
+Interface loopback 66070046 is enabled successfully
+/66070046 showrun
+show running config
+/66070046 create
+Cannot create: Interface loopback 66070046
+/66070046 enable
+Interface loopback 66070046 is enabled successfully
+/66070046 status
+Interface loopback 66070046 is enabled

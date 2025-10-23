@@ -1,0 +1,14 @@
+/66070177 create
+Interface loopback66070177 is created successfully
+/66070177 showrun
+show running config
+/66070177 status
+Interface loopback 66070177 is enabled
+/66070177 status
+Interface loopback 66070177 is enabled
+/66070177 status
+Interface loopback 66070177 is enabled
+/66070177 delete
+Interface loopback 66070177 is deleted successfully
+/66070177 delete
+Cannot delete: Interface loopback 66070177

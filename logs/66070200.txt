@@ -1,0 +1,18 @@
+/66070200 status
+Interface loopback 66070200 is enabled
+/66070200 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070200 showrun
+show running config
+/66070200 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070200 create
+Cannot create: Interface loopback 66070200
+/66070200 delete
+Interface loopback 66070200 is deleted successfully
+/66070200 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070200 disable
+Interface loopback 66070200 is shutdowned successfully
+/66070200 create
+Cannot create: Interface loopback 66070200

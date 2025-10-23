@@ -1,0 +1,18 @@
+/66070112 create
+Interface 66070112 created successfully.
+/66070112 status
+Interface loopback 66070112 is currently enabled.
+/66070112 status
+Interface loopback 66070112 is currently enabled.
+/66070112 status
+Interface loopback 66070112 is currently enabled.
+/66070112 enable
+Interface loopback 66070112 enabled successfully.
+/66070112 showrun
+show running config.
+/66070112 delete
+Interface Loopback 66070112 deleted successfully.
+/66070112 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070112 delete
+Cannot delete: Interface loopback 66070112.

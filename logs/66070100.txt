@@ -1,0 +1,14 @@
+/66070100 status
+No Interface loopback 66070100
+/66070100 status
+No Interface loopback 66070100
+/66070100 create
+Interface loopback 66070100 is created successfully
+/66070100 enable
+Interface loopback 66070100 is enabled successfully
+/66070100 delete
+Interface loopback 66070100 is deleted successfully
+/66070100 enable
+Cannot enable: Interface loopback 66070100
+/66070100 showrun
+show running config

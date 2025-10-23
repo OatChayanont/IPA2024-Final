@@ -1,0 +1,16 @@
+/66070291 enable
+Cannot enable: Interface loopback 66070291
+/66070291 create
+Interface loopback 66070291 is created successfully
+/66070291 status
+Interface loopback 66070291 is enabled
+/66070291 enable
+Interface loopback 66070291 is enabled successfully
+/66070291 delete
+Interface loopback 66070291 is deleted successfully
+/66070291 showrun
+show running config
+/66070291 status
+No Interface loopback 66070291
+/66070291 delete
+Cannot delete: Interface loopback 66070291

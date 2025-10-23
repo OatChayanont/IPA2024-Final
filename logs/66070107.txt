@@ -1,0 +1,16 @@
+/66070107 delete
+Interface loopback 66070107 is deleted successfully
+/66070107 delete
+Cannot delete: Interface loopback 66070107
+/66070107 gigabit_status
+GigabitEthernet1 up -> 1 up, 0 down, 0 administratively down
+/66070107 enable
+Cannot enable: Interface loopback 66070107
+/66070107 enable
+Cannot enable: Interface loopback 66070107
+/66070107 create
+Interface loopback 66070107 is created successfully
+/66070107 create
+Cannot create: Interface loopback 66070107
+/66070107 showrun
+show running config (show_run_66070107_CSR1KV.txt)

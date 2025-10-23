@@ -1,0 +1,18 @@
+/66070119 delete
+/check 66070139
+/66070119 enable
+Interface loopback 66070119 is deleted successfully
+/66070119 status
+No Interface loopback 66070119
+/66070119 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070119 create
+Interface loopback 66070119 is created successfully
+/66070119 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070119 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2 down, 1 administratively down
+/66070119 status
+Interface loopback 66070119 is enabled
+/66070119 delete
+Interface loopback 66070119 is deleted successfully

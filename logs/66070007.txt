@@ -1,0 +1,25 @@
+/66070007 gigabit_status
+/check 66070220
+/66070007 status
+
+
+Pattern not detected: 'show\\ ip\\ interface\\ brief' in output.
+
+Things you might try to fix this:
+1. Adjust the regex pattern to better identify the terminating string. Note, in
+many situations the pattern is automatically based on the network device's prompt.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+/66070007 enable
+Interface loopback 66070007 is enable successfully
+/66070007 disable
+Interface loopback 66070007 is shutdowned successfully
+/66070007 create
+Loopback66070007 already exists.
+/66070007 enable
+Interface loopback 66070007 is enable successfully
+/66070007 enable
+/check 66070244

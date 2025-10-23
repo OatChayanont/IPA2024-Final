@@ -1,0 +1,16 @@
+/66070246 disable
+Cannot shutdown: Interface Loopback66070246
+/66070246 disable
+Cannot shutdown: Interface Loopback66070246
+/66070246 status
+No Interface Loopback66070246
+/66070246 showrun
+Show running config from R1-Exam
+/66070246 status
+No Interface Loopback66070246
+/66070246 gigabit_status
+1 up, 0 down, 0 administratively down
+/66070246 gigabit_status
+1 up, 0 down, 0 administratively down
+/66070246 showrun
+Show running config from R1-Exam

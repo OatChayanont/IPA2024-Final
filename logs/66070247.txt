@@ -1,0 +1,14 @@
+/66070247 disable
+Interface loopback 66070247 is shutdowned successfully
+/66070247 status
+Interface loopback 66070247 is disabled
+/66070247 gigabit_status
+GigabitEthernet1 status: up, GigabitEthernet2 status: administratively down, GigabitEthernet3 status: administratively down, GigabitEthernet4 status: down -> 1 up, 1 down, 2 administratively down
+/66070247 gigabit_status
+GigabitEthernet1 status: up, GigabitEthernet2 status: administratively down, GigabitEthernet3 status: administratively down, GigabitEthernet4 status: down -> 1 up, 1 down, 2 administratively down
+/66070247 showrun
+show running config of 66070247
+/66070247 gigabit_status
+GigabitEthernet1 status: up, GigabitEthernet2 status: administratively down, GigabitEthernet3 status: administratively down, GigabitEthernet4 status: down -> 1 up, 1 down, 2 administratively down
+/66070247 showrun
+show running config of 66070247

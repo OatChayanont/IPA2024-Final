@@ -1,0 +1,18 @@
+/66070069 disable
+Interface Loopback 66070069 is now disable
+/66070069 gigabit_status
+GigabitEthernet1 up, GigabitEthernet2 administratively down, GigabitEthernet3 down, GigabitEthernet4 down -> 1 up, 2  down, 1 administratively down
+/66070069 disable
+Interface Loopback 66070069 is now disable
+/66070069 create
+Error: Interface Loopback 66070069 already exists
+/66070069 disable
+Interface Loopback 66070069 is now disable
+/66070069 create
+Error: Interface Loopback 66070069 already exists
+/66070069 create
+Error: Interface Loopback 66070069 already exists
+/66070069 create
+Error: Interface Loopback 66070069 already exists
+/66070069 showrun
+show running config

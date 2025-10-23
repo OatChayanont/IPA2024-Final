@@ -1,0 +1,20 @@
+---
+- name: AUTOMATIC BACKUP OF RUNNING config
+  hosts: router1
+  gather_facts: false
+  connection: ansible.netcommon.network_cli
+  vars:
+    ts: "{{ ansible_date_time.iso8601_basic_short }}"  # e.g. 20251007T123456
+    ansible_network_os: cisco.ios.ios
+  
+  tasks:
+    - name: Get running-config
+      ios_command:
+        commands:
+          - show running-config
+      register: running_config
+
+    - name: Save running-config to a file
+      copy:
+        content: "{{ running_config.stdout[0] }}"
+        dest: "./backups/{{ inventory_hostname }}-running-config.txt"
